@@ -1,0 +1,9 @@
+{
+    "name": "morethanthemes/extra_view_modes",
+    "description": "Adds extra view modes.",
+    "type": "drupal-recipe",
+    "require": {
+        "drupal/core": ">=10.4 || ^11"
+    },
+    "version": "1.0.0"
+}

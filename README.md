@@ -1,24 +1,16 @@
-# Extra View Modes
+# Extra View Modes Recipe
 
 ## Description
 
-This module provides a set of extra view modes for content types.
+This recipe provides a set of extra view modes for content types.
 
-## Requirements
+## Usage
 
-- Drupal 8.x or higher
-- Node module
-- Taxonomy module
-
-## Installation
-
-1.  Enable the module on the Extend page (`/admin/modules`).
-2.  Go to the content type display settings (`/admin/structure/types/manage/{content_type}/display`).
-3.  Enable the desired view modes in the "Custom display settings" fieldset.
+This recipe will automatically install the required modules and configuration.
 
 ## Configuration
 
-The module provides the following view modes:
+The recipe provides the following view modes:
 
 *   Featured Teaser (`mt_featured_teaser`)
 *   Metro Tile (`mt_metro_tile`)

@@ -1,0 +1,8 @@
+name: "Extra View Modes"
+type: "View Mode"
+description: Adds extra view modes.
+install:
+  - node
+  - taxonomy
+config:
+  strict: false
