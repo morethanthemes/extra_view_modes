@@ -1,6 +1,6 @@
 name: "Extra View Modes"
-type: "View Mode"
-description: Adds extra view modes.
+type: "View Modes"
+description: 'Adds useful entity view modes (featured teaser, metro tile, slide view, etc.) used by other Extra recipes.'
 install:
   - node
   - taxonomy

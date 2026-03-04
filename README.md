@@ -1,21 +1,24 @@
-# Extra View Modes Recipe
+# Extra View Modes
 
-## Description
+Provides additional entity view modes commonly used by More Than Themes recipes.
 
-This recipe provides a set of extra view modes for content types.
+## What this recipe provides
 
-## Usage
+- Featured Teaser (`mt_featured_teaser`)
+- Metro Tile (`mt_metro_tile`)
+- Slide View (`mt_slide_view`)
+- Teaser Tile (`mt_teaser_tile`)
+- Video Grid Item (`mt_video_grid_item`)
 
-This recipe will automatically install the required modules and configuration.
+## Installation
 
-## Configuration
+```bash
+composer require drupal/extra_view_modes
+# or install via the Recipes UI / drush recipe
+```
 
-The recipe provides the following view modes:
+Manage view modes under *Structure → Display modes → View modes*.
 
-*   Featured Teaser (`mt_featured_teaser`)
-*   Metro Tile (`mt_metro_tile`)
-*   Slide View (`mt_slide_view`)
-*   Teaser Tile (`mt_teaser_tile`)
-*   Video Grid Item (`mt_video_grid_item`)
+## License
 
-These view modes can be managed in the Drupal admin UI under Structure > Display modes > View modes (`/admin/structure/display-modes/view`).
+GPL-2.0-or-later

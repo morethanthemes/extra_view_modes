@@ -1,7 +1,8 @@
 {
-    "name": "morethanthemes/extra_view_modes",
-    "description": "Adds extra view modes.",
+    "name": "drupal/extra_view_modes",
+    "description": "Provides additional entity view modes used by extra_* recipes.",
     "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
     "require": {
         "drupal/core": ">=10.4 || ^11"
     },
